@@ -1,5 +1,6 @@
 export default {
     npmClient: 'pnpm',
+    mfsu: false,
     externals: {
         'react': 'var window.React',
         'react-dom': 'var window.ReactDOM',
